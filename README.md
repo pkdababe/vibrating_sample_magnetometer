@@ -1,4 +1,4 @@
-# Copied from main folder
+# Vibrating Sample Magnetometer Signal Processing Code
 
 This is the folder to measure the residual magnetisation
 You can run it once per data set (eg, once per CSV with 3 columns:
