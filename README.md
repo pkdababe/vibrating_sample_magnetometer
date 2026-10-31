@@ -18,7 +18,7 @@ Python Install: https://www.python.org/downloads/
 Jupyter Lab installation: https://jupyter.org/install
 SciPy installation: https://scipy.org/install/
 
-I run jupyter on mac by opening the terminall and typing:
+I run jupyter on mac by opening the terminal and typing:
 
 jupyter lab
 
@@ -26,5 +26,16 @@ followed by pressing 'return'.
 
 Each notebook in this folder is numbered according to how recently it was created
 
+You will notice a csv of simulated data called 'fake data'. This was generated initially to test 
+whether or not the code could produce a hysteresis loop from 2 datasets representing 2 sinusoidal 
+waves. If you would like to run the fake data instead of the real data, just change:
+
+CSV_FILE = "SDS00001.CSV" 
+
+to
+
+CSV_FILE = "fake_data.csv"
+
 To get started, download this folder onto your computer
-Then open and run the python script 'signal_process3.jpynb' in jupyter notebooks 
+Then open and run the python script 'signal_process3.jpynb' in jupyter notebooks or some other
+suitable shell such as vscode. 
