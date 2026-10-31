@@ -1,4 +1,4 @@
-OKAY so This is the folder to measure the residual magnetisation
+This is the folder to measure the residual magnetisation
 You can run it once per data set (eg, once per CSV with 3 columns:
 
 Time (s) | CH1 (V) | CH2 (2)
@@ -26,9 +26,3 @@ Each notebook in this folder is numbered according to how recently it was create
 
 To get started, download this folder onto your computer
 Then open and run the python script 'signal_process3.jpynb' in jupyter notebooks 
-
-Currently the output doesn't seem ideal to me, I think it's because it is sampled data, not raw data
-
-Still, it is a start!
-
-:3
