@@ -14,9 +14,12 @@ Time (s) | CH1 (V) | CH2 (2)
 4. THE CSV FILE MUST BE IN THE SAME FOLDER AS THE JUPYTER NOTEBOOK FILE
 5. MUST HAVE SCIPY, PYTHON and JUPYER LAB INSTALLED ON DEVICE RUNNING CODE
 
-You may install things from here:
+You may install required packages from here:
+
 Python Install: https://www.python.org/downloads/
+
 Jupyter Lab installation: https://jupyter.org/install
+
 SciPy installation: https://scipy.org/install/
 
 I run jupyter on mac by opening the terminal and typing:
