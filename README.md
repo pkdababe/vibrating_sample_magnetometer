@@ -32,13 +32,15 @@ Each notebook in this folder is numbered according to how recently it was create
 
 You will notice a csv of simulated data called 'fake data'. This was generated initially to test 
 whether or not the code could produce a hysteresis loop from 2 datasets representing 2 sinusoidal 
-waves. If you would like to run the fake data instead of the real data, just change:
+waves. If you would like to run your own data instead of the data set provided, just change:
 
 CSV_FILE = "SDS00001.CSV" 
 
 to
 
-CSV_FILE = "fake_data.csv"
+CSV_FILE = "your_file.csv"
+
+The notebooks signal_process1.jpynb and signal_process2.jpynb run the simulated 'fake_data.csv' file. 
 
 To get started, download this folder onto your computer
 Then open and run the python script 'signal_process3.jpynb' in jupyter notebooks or some other
